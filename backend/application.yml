@@ -1,0 +1,17 @@
+server:
+  port: 8080
+
+integration:
+  datasource:
+    jdbc-url: jdbc:sqlserver://localhost:14330;databaseName=SMILE_FAST_INT;encrypt=false;trustServerCertificate=true
+    username: smile_dev
+    password: l@cNinh2026
+    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+
+
+smile:
+  datasource:
+    jdbc-url: jdbc:sqlserver://localhost:14330;databaseName=SMILE_BO;encrypt=false;trustServerCertificate=true
+    username: smile_dev
+    password: l@cNinh2026
+    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
